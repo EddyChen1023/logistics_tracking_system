@@ -1,23 +1,23 @@
 # 檔案架構(暫時)
 ```
 logistics_tracking_system
-|-- /css
-        |-- styles_of_home.css
-      |-- styles_of_list.css
-      |-- styles_of_login.css
-|-- /profile_info
-      |-- buyer.php
-      |-- seller.php
-      |-- driver.php
-|-- home.php
-|-- config.php
-|-- logout.php
-|-- buyer_login.html
-|-- seller_login.html
-|-- driver_login.html
-|-- buyer_auth.php
-|-- seller_auth.php
-|-- driver_auth.php
+        |-- /css
+                |-- styles_of_home.css
+                |-- styles_of_list.css
+                |-- styles_of_login.css
+        |-- /profile_info
+                |-- buyer.php
+                |-- seller.php
+                |-- driver.php
+        |-- home.php
+        |-- config.php
+        |-- logout.php
+        |-- buyer_login.html
+        |-- seller_login.html
+        |-- driver_login.html
+        |-- buyer_auth.php
+        |-- seller_auth.php
+        |-- driver_auth.php
 ```
 # 檔案內容說明
 ### home.php
