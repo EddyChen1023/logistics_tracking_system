@@ -27,7 +27,10 @@ logistics_tracking_system
 ### config.php
 > phpmyadmin 資料庫系統連線<br>
 > 功能：登入資料庫<br>
-**但參數不宜直接放在檔案中，更好的做法是再寫一個 .env 存放登入參數，另外我們還需要寫 .sql 統一建置相同的資料**
+但參數不宜直接放在檔案中，更好的做法是
+
+-[] 再寫一個 .env 存放登入參數
+-[] 寫 .sql 統一建置相同的資料 (necessary)
 
 ### buyer_login.html / seller_login.html / driver_login.html
 *{user}_login.html*<br>
@@ -39,14 +42,17 @@ logistics_tracking_system
 *{user}_auth.php*<br>
 > 賣家登入驗證 / 賣家登入驗證 / 司機登入驗證<br>
 > 功能：從 *config.php* 引入與資料庫的連線；執行各自的 SQL 查詢；建立 session 紀錄登入狀態的參數與使用者輸入的參數；跳轉頁面至登入狀態<br>
-    - 登入失敗 -> 定位至 home.php<br>
-    - 登入成功 -> 定位至 *{user}.php*<br>
+- 登入失敗 -> 定位至 home.php<br>
+- 登入成功 -> 定位至 *{user}.php*<br>
 
 ### buyer.php / seller.php / driver.php
 *{user}.php*
 > 使用者登入後的頁面<br>
 > 功能：載入頁面頁面的同時登入狀態 (利用 `$_SESSION["loggedin"]`)；顯示登入後頁面 (利用 session 接收參數)<br>
 **查詢所有訂單、個別查詢訂單內容都以從此頁面繼續寫下去 (可能用 javascrpt 新增元素的方式寫)**
+
+-[] 查詢所有訂單
+-[] 個別查詢訂單內容
 
 ### logout.php
 > 設定登出狀態<br>
