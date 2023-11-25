@@ -22,12 +22,12 @@ logistics_tracking_system
 # 檔案內容說明
 ### home.php
 > 系統首頁<br>
-> 功能：
+> 功能：<br>
 >> 使用者選擇登入方式，進入 *{user}_login.html*
 
 ### config.php
 > phpmyadmin 資料庫系統連線<br>
-> 功能：
+> 功能：<br>
 >> 登入資料庫<br>
 
 但參數不宜直接放在檔案中，更好的做法是
