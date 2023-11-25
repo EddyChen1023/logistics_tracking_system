@@ -1,7 +1,7 @@
 # 檔案架構(暫時)
 logistics_tracking_system<br>
 |-- /css <br>
-      |-- styles_of_home.css<br>
+\t\t  |-- styles_of_home.css<br>
       |-- styles_of_list.css<br>
       |-- styles_of_login.css<br>
 |-- /profile_info<br>
@@ -54,8 +54,8 @@ logistics_tracking_system<br>
 # 網站架構圖
                                             +------------+
          +--------------------------------> |  home.php  | <----+--------------------------------+
-         |                                  +------------+      |                                |      
-         |                  ↙                      ↓            |         ↘                      | 
+         |                                  +------------+      |                                |
+         |                  ↙                      ↓            |         ↘                      |
          |   +------------------+       +-------------------+   |      +-------------------+     |
          |   | buyer_login.html |       | seller_login.html |   |      | driver_login.html |     |
          |   +------------------+       +-------------------+   |      +-------------------+     |
