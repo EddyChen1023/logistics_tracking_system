@@ -1,22 +1,22 @@
 # 檔案架構(暫時)
-logistics_tracking_system
-|-- /css 
-      |-- styles_of_home.css
-      |-- styles_of_list.css
-      |-- styles_of_login.css
-|-- /profile_info
-      |-- buyer.php
-      |-- seller.php
-      |-- driver.php
-|-- home.php 
-|-- config.php
-|-- logout.php
-|-- buyer_login.html
-|-- seller_login.html
-|-- driver_login.html
-|-- buyer_auth.php
-|-- seller_auth.php
-|-- driver_auth.php
+logistics_tracking_system<br>
+|-- /css <br>
+      |-- styles_of_home.css<br>
+      |-- styles_of_list.css<br>
+      |-- styles_of_login.css<br>
+|-- /profile_info<br>
+      |-- buyer.php<br>
+      |-- seller.php<br>
+      |-- driver.php<br>
+|-- home.php <br>
+|-- config.php<br>
+|-- logout.php<br>
+|-- buyer_login.html<br>
+|-- seller_login.html<br>
+|-- driver_login.html<br>
+|-- buyer_auth.php<br>
+|-- seller_auth.php<br>
+|-- driver_auth.php<br>
 
 # 檔案內容說明
 ### home.php
@@ -37,7 +37,7 @@ logistics_tracking_system
 *{user}_auth.php*
 ### buyer_auth.php / seller_auth.php / driver_auth.php
 > 賣家登入驗證 / 賣家登入驗證 / 司機登入驗證
-> 功能：從 *config.php* 引入與資料庫的連線；執行各自的 SQL 查詢；建立 session 紀錄登入狀態德參數與使用者輸入的參數；跳轉頁面至登入狀態
+> 功能：從 *config.php* 引入與資料庫的連線；執行各自的 SQL 查詢；建立 session 紀錄登入狀態的參數與使用者輸入的參數；跳轉頁面至登入狀態
     - 登入失敗 -> 定位至 home.php
     - 登入成功 -> 定位至 *{user}.php*
 
