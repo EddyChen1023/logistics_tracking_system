@@ -41,9 +41,9 @@ logistics_tracking_system
 ### buyer_auth.php / seller_auth.php / driver_auth.php
 *{user}_auth.php*<br>
 > 賣家登入驗證 / 賣家登入驗證 / 司機登入驗證<br>
-> 功能：從 *config.php* 引入與資料庫的連線；執行各自的 SQL 查詢；建立 session 紀錄登入狀態的參數與使用者輸入的參數；跳轉頁面至登入狀態<br>
-- 登入失敗 -> 定位至 home.php<br>
-- 登入成功 -> 定位至 *{user}.php*<br>
+> 功能：從 *config.php* 引入與資料庫的連線；執行各自的 SQL 查詢；建立 session 紀錄登入狀態的參數與使用者輸入的參數；跳轉頁面至登入狀態
+>> 登入失敗 -> 定位至 home.php<br>
+>> 登入成功 -> 定位至 *{user}.php*<br>
 
 ### buyer.php / seller.php / driver.php
 *{user}.php*
